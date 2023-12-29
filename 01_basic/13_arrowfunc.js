@@ -18,3 +18,29 @@ const user = {
 // }
 // chai()
 
+
+// const chai = () => {
+//     let username = "hitesh"
+//     console.log(this.username)
+// }
+
+// chai()
+
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// console.log (addTwo(3, 4))
+
+
+//+++++ implicity return concept++++ isme carlee bracess nhi use hote hai
+
+// const addTwo = (num1, num2) =>  num1 +num2
+
+// const addTwo = (num1, num2) => (num1 +num2)
+
+// objects return
+const addTwo = (num1, num2) => ({username: "Arpit"})
+
+console.log(addTwo(3, 4))
